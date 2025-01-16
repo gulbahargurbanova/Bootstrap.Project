@@ -1,0 +1,65 @@
+body {
+    scroll-behavior: smooth;
+    padding-top: 56px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#home {
+    background: #17a2b8;
+    color: white;
+    padding: 100px 0;
+}
+
+#services {
+    padding: 60px 0;
+}
+
+#portfolio {
+    background: #ffc107;
+    color: #333;
+    padding: 60px 0;
+}
+
+#contact {
+    background: #f8f9fa;
+    color: #333;
+    padding: 60px 0;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nav-link {
+    color: #ffc107 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+button {
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #28a745;
+}
